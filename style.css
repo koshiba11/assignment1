@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main{
+  width: 960px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.main-contents-box{
+  width: 300px;
+  margin: 50px 0;
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+.main-contents-number{
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  color: #fff;
+  background-color: #FF9A4B;
+}
+
+.main-contents-image{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+}
+
+h3{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
